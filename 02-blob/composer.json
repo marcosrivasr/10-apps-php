@@ -1,0 +1,16 @@
+{
+    "name": "vidamrr/blog",
+    "autoload": {
+        "psr-4": {
+            "Vidamrr\\Blog\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "marcos rivas"
+        }
+    ],
+    "require": {
+        "league/commonmark": "^2.3"
+    }
+}

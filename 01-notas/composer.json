@@ -1,0 +1,14 @@
+{
+    "name": "vidamrr/notas",
+    "autoload": {
+        "psr-4": {
+            "Notas\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "marcos rivas"
+        }
+    ],
+    "require": {}
+}

@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+
+  background-color: #efefef;
+}
+
+.notes-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 10px;
+}
+
+.note-preview {
+  background-color: white;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border: solid 2px transparent;
+  border-radius: 5px;
+}
+
+.notes-container a {
+  color: black;
+  text-decoration: none;
+}
+
+.note-preview .title {
+  font-size: 28px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.note-preview:hover {
+  border: solid 2px #2893ff;
+}
+
+nav {
+  background-color: white;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  background-color: black;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 20px auto;
+  gap: 20px;
+}
+form input[type="text"],
+form textarea {
+  padding: 10px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form input[type="text"] {
+  font-weight: bold;
+}
+form textarea {
+  height: 60vh;
+}
