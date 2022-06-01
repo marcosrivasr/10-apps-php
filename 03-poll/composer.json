@@ -1,0 +1,15 @@
+{
+    "name": "vidamrr/poll",
+    "autoload": {
+        "psr-4": {
+            "Vidamrr\\Poll\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marcos Rivas",
+            "email": "marcosrivasr@gmail.com"
+        }
+    ],
+    "require": {}
+}

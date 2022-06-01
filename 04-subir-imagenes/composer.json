@@ -1,0 +1,17 @@
+{
+    "name": "vidamrr/upload",
+    "autoload": {
+        "psr-4": {
+            "Vidamrr\\Upload\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marcos Rivas",
+            "email": "marcosrivasr@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7"
+    }
+}

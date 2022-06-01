@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#files-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.file-item {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.file-item img {
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.progress-bar {
+  background-color: rgb(55, 135, 255);
+  height: 10px;
+  width: 5px;
+}
+
+main {
+  width: 920px;
+  margin: 100px auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+main img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}

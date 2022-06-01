@@ -43,3 +43,20 @@ main a {
 main a:hover {
   text-decoration: underline;
 }
+
+main .post-item {
+  background-color: white;
+  margin: 10px 0;
+}
+
+main .post-item a {
+  padding: 10px;
+  color: black;
+  display: block;
+  text-decoration: none;
+}
+
+main .post-item a:hover {
+  background-color: black;
+  color: white;
+}
