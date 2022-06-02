@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #efefef;
+}
+
+.comments-container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.comments-container form {
+  background-color: white;
+  border: solid 1px #ccc;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.comments-container form input,
+.comments-container form textarea {
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.comments-container form textarea {
+  height: 100px;
+}
+
+.comments-container form .button {
+  padding: 10px;
+  background-color: rgb(65, 50, 168);
+  color: white;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+
+.comments {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.comments .comment {
+  border: solid 1px #ccc;
+  padding: 10px;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.comments .comment .username {
+  font-weight: bold;
+}
+
+.comments .comment .text {
+  padding: 10px 0;
+}
+
+.comments .comment .date {
+  font-weight: bold;
+  color: #999;
+  font-size: 12px;
+}
