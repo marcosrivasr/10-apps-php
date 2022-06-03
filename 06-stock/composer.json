@@ -1,0 +1,15 @@
+{
+    "name": "vidamrr/stock",
+    "autoload": {
+        "psr-4": {
+            "Vidamrr\\Stock\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marcos Rivas",
+            "email": "marcosrivasr@gmail.com"
+        }
+    ],
+    "require": {}
+}

@@ -1,0 +1,15 @@
+{
+    "name": "vidamrr/gastos",
+    "autoload": {
+        "psr-4": {
+            "Vidamrr\\Gastos\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marcos Rivas",
+            "email": "marcosrivasr@gmail.com"
+        }
+    ],
+    "require": {}
+}
