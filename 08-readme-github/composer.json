@@ -1,0 +1,17 @@
+{
+    "name": "vidamrr/readme",
+    "autoload": {
+        "psr-4": {
+            "Vidamrr\\Readme\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marcos Rivas",
+            "email": "marcosrivasr@gmail.com"
+        }
+    ],
+    "require": {
+        "league/commonmark": "^2.3"
+    }
+}

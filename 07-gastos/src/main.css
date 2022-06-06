@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: dodgerblue;
+}
+
+nav {
+  background-color: black;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px 15px;
+}
+
+.container {
+  width: 500px;
+  background-color: white;
+  border-radius: 3px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 100px auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  padding: 10px;
+  border: solid 1px #999;
+  border-radius: 3px;
+}
+
+input[type="submit"] {
+  border: none;
+  padding: 10px 15px;
+  background-color: darkslateblue;
+  color: white;
+  border-radius: 3px;
+}
+
+.categories,
+.expenses {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.category {
+  padding: 10px;
+  border: solid 1px #ccc;
+}
+
+.expense {
+  display: flex;
+  justify-content: space-between;
+  border: solid 1px rgb(17, 90, 143);
+  padding: 10px;
+}
+
+.expense div {
+  min-width: 33%;
+}
+
+.expense div:nth-child(3) {
+  text-align: right;
+  font-weight: bold;
+}
+
+.expense div:nth-child(2) {
+  text-align: center;
+}
